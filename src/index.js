@@ -1,7 +1,7 @@
 export { default } from './MUIDataTable';
 export { default as Popover } from './components/Popover';
 export { default as TableBodyCell } from './components/TableBodyCell';
-export { default as TableBody } from './components/TableBody';
+export { default as TableBody, defaultRowRenderer as TableBodyDefaultRowRenderer } from './components/TableBody';
 export { default as TableBodyRow } from './components/TableBodyRow';
 export { default as TableFilter } from './components/TableFilter';
 export { default as TableFilterList } from './components/TableFilterList';
