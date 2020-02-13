@@ -240,7 +240,7 @@ class TableBody extends React.Component {
 }
 
 export const defaultRowRenderer = (row, dataIndex, rowIndex, bodyInst) => {
-  const { columns, toggleExpandRow, options } = this.props;
+  const { columns, toggleExpandRow, options } = bodyInst.props;
   return (
     <React.Fragment key={rowIndex}>
       <TableBodyRow
